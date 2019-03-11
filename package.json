@@ -2,9 +2,11 @@
   "name": "NumberAudition",
   "version": "0.1.0",
   "private": true,
+  "homepage": "git@github.com:noties/NumberAudition",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js -b gh-pages"
   },
   "dependencies": {
     "buefy": "^0.7.3",
@@ -16,6 +18,7 @@
     "@vue/cli-service": "^3.5.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.5.21"
   },
   "postcss": {

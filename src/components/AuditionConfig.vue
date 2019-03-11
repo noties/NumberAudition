@@ -7,7 +7,7 @@
           :message="errors.maximumNumber"
           :type="errors.maximumNumber && 'is-danger'"
         >
-          <b-input v-model="maximumNumber" placeholder="Maximum number"/>
+          <b-input v-model="maximumNumber" placeholder="Maximum number" type="number"/>
         </b-field>
         <div class="columns">
           <div class="column">

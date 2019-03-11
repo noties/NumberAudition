@@ -7,7 +7,7 @@
         :duration="session.delay"
       >{{inputMessage(currentIndex)}}</audition-progress-bar>
       <b-field :label="session.voice">
-        <b-input v-model="currentInput" autofocus tabindex="0" ref="input"/>
+        <b-input v-model="currentInput" autofocus tabindex="0" ref="input" type="number"/>
       </b-field>
       <div class="buttons audition-button-container">
         <button class="button is-danger" @click="cancel">CANCEL</button>
